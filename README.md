@@ -13,6 +13,7 @@ Clone this repository, and:
 
 ```
 bundle install
+bundle exec rails db:migrate RAILS_ENV=development
 redis-server
 rails server
 open http://localhost:3000

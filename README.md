@@ -25,6 +25,8 @@ You should be able to chat like this:
 
 ### Deploy to Heroku
 
+NOTE: This project is experimental. It might be risky for production. See also [this pull request](https://github.com/JunichiIto/campfire/pull/3) (in Japanese).
+
 ```
 heroku create
 heroku addons:create heroku-redis

@@ -23,6 +23,16 @@ You should be able to chat like this:
 
 ![c7ERfXIREG.gif](https://qiita-image-store.s3.amazonaws.com/0/7465/b58e0bc4-eb80-3176-9baf-3009323c4485.gif "c7ERfXIREG.gif")
 
+### Deploy to Heroku
+
+```
+heroku create
+heroku addons:create heroku-redis
+git push heroku master
+heroku run rails db:migrate
+heroku open
+```
+
 ## License
 
 MIT License.

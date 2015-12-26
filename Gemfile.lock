@@ -107,6 +107,7 @@ GEM
     multi_json (1.11.2)
     nokogiri (1.6.7.1)
       mini_portile2 (~> 2.0.0.rc2)
+    pg (0.18.4)
     puma (2.15.3)
     rack (2.0.0.alpha)
       json
@@ -132,6 +133,11 @@ GEM
       rails-deprecated_sanitizer (>= 1.0.1)
     rails-html-sanitizer (1.0.2)
       loofah (~> 2.0)
+    rails_12factor (0.0.3)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.4)
+    rails_stdout_logging (0.0.4)
     railties (5.0.0.beta1)
       actionpack (= 5.0.0.beta1)
       activesupport (= 5.0.0.beta1)
@@ -175,8 +181,10 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails
+  pg
   puma
   rails (>= 5.0.0.beta1, < 5.1)
+  rails_12factor
   sqlite3
   turbolinks
   tzinfo-data
@@ -184,4 +192,4 @@ DEPENDENCIES
   web-console (~> 3.0)
 
 BUNDLED WITH
-   1.10.6
+   1.11.2
